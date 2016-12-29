@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "it.gfasulo.bachecacatechesi2"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "it.gfasulo.bachecacatechesi2"
+        },
+        "pushbots-cordova-plugin": {
+            "PACKAGE_NAME": "it.gfasulo.bachecacatechesi2"
+        }
+    },
+    "dependent_plugins": {}
+}

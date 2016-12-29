@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="icon" type="image/png" href="images/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="images/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/splash/apple-touch-icon-57x57.png">
+<link rel="icon" type="image/png" href="images/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="images/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    
+<title>Bacheca Catechesi</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel="stylesheet" type="text/css" href="styles/font-awesome.css">
+
+<!-- Framewrok7
+<link rel="stylesheet" type="text/css" href="css/framework7.ios.min.css">
+<link rel="stylesheet" type="text/css" href="css/framework7.ios.colors.min.css">
+-->
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
+
+</head>
+
+<body class="has-cover">
+<div class="gallery-fix"></div><!-- Fix Gallery next/prev error on Android -->
+<div class="share-bottom-tap-close"></div><!-- Closes the bottom share box on tapping anywhere on the content -->
+<div class="menu-tap-close light-close"></div> 
+    
+<div class="header-fixed header-dark">
+    <a href="#" class="open-left-menu"><i class="fa fa-navicon"></i></a>
+    <a href="#" class="close-left-menu"><i class="fa fa-times"></i></a>
+    <h3>Bacheca Catechesi</h3>
+	<!--
+    <a href="#" class="open-right-menu"><i class="fa fa-envelope-o"></i></a>
+    <a href="#" class="close-right-menu"><i class="fa fa-times"></i></a>
+	-->
+</div>
+    
+
+
+<div id="page-content">
+    <div id="page-content-scroll">
+    
+        <div class="cover-page cover-image" style="background-image:url(images/pictures/2.jpg);">
+            <div class="cover-page-content">
+
+                <div class="pageapp-login">
+                    <!-- <a href="#" class="pageapp-login-logo"></a>  -->
+                    <div class="spacer" style="padding: 100px;"></div>
+                    <div class="cover-field">
+						 <div class="static-notification bg-red-dark tap-dismiss" id="notifica">
+						<p>
+							<i class="fa fa-times"></i>
+							Numero di cellulare errato!
+						</p>
+						</div> 
+						
+                        <i class="fa fa-user"></i>
+                        <input type="number" name="cellulare" id="cellulare" placeholder="Numero di Cellulare" required>
+                        <i class="fa fa-pencil"></i>
+                        <input type="number" name="password" id="password" placeholder="Password" required>
+                    </div>                
+                    
+                    <a href="#" id="entra" class="pageapp-login-button button button-green"><i class="fa fa-arrow-right"></i>ENTRA</a>
+					
+                    <div class="decoration half-bottom"></div>
+					
+                    <input id="check-ricorda" class="checkbox" type="checkbox">
+					<label class="checkbox-label" for="check-ricorda">Ricorda</label>
+					<br />
+					<a class="pageapp-login-button button button-orange" href="contatti.html"> <i class="fa fa-align-center"></i>Registrati</a>	
+                </div>
+					
+					
+
+            </div>
+            <div class="overlay"></div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="left-menu dark-menu">
+    <div class="menu-scroll">
+        <a class="menu-item" href="index.html"> <i class="fa fa-home"></i><em>Home</em> </a>
+        <a class="menu-item" href="index-coverpage.html"> <i class="fa fa-image"></i><em>Cover</em> </a>
+     
+       
+      
+        <div class="has-submenu">
+            <a class="menu-item open-submenu" href="#"> <i class="fa fa-mobile"></i><em>menu</em> </a>
+            <div class="submenu">
+                <div class="submenu-scroll active-submenu">
+                    
+                    <a class="submenu-item selected-item" href="index.html"> <i class="fa fa-lock"></i><em>Home</em></a>
+                    <a class="submenu-item" href="contatti.html"> <i class="fa fa-align-center"></i><em>Scrivimi</em></a>
+                    <a class="submenu-item" href="istruzioni.html"> <i class="fa fa-pencil"></i><em>Help</em></a>
+                    
+                </div>
+            </div>
+        </div>
+      
+      
+    </div>
+</div>
+
+
+<script>
+
+	$(document).ready(function () {
+		 
+	       
+		// nasconod notifica
+		$("#notifica").hide();
+		
+		// se è registrato leggi il cell e mettilo nella casella
+		var cellulare_memorizzato = localStorage.getItem("cellulare");
+        var password_memorizzata = localStorage.getItem("password");
+		
+		if (cellulare_memorizzato > 0) {
+			$("#cellulare").val(cellulare_memorizzato);
+            $("#password").val(password_memorizzata);
+			$("#check-ricorda").prop('checked', true);
+			}
+			else
+			{
+			$("#check-ricorda").prop('checked', false);
+			}
+
+
+	}); // END DOCUMENT READY -----------------------------------------------------------------
+	
+		$("#entra").bind("touchend", function (e) {
+		
+			// avvio la APP e carico i dati dal server
+			controlla_accesso();
+			return false;
+	   });
+	   
+</script>
+</body>
+
